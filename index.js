@@ -13,7 +13,8 @@ while (condition) {
         {
             name: "tasks",
             message: "Do you want to Add More?",
-            type: "confirm"
+            type: "confirm",
+            default: "false"
         }
     ]);
     toDo.push(input.task);
